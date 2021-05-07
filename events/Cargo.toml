@@ -1,0 +1,19 @@
+[package]
+name = "events"
+version = "0.1.0"
+authors = ["Nicolas Jouanno <nicolas.jouanno@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "*"
+serde_derive = "*"
+reqwest = "0.11.2"
+select = "*"
+tokio = { version = "1.4.0", features = ["full"] }
+futures = "0.3.13"
+chrono = "*"
+bson= "1.2.0"
+mongodb = { version = "2.0.0-alpha", default-features = false, features = ["tokio-runtime"] }
+utils = { path = "../utils" }
