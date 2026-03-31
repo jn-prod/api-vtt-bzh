@@ -15,5 +15,5 @@ tokio = { version = "1.4.0", features = ["full"] }
 futures = "0.3.13"
 chrono = "*"
 bson= "1.2.0"
-mongodb = { version = "2.0.0-alpha", default-features = false, features = ["tokio-runtime"] }
+mongodb = { version = "3.0.0", default-features = false, features = ["tokio-runtime"] }
 utils = { path = "../utils" }
