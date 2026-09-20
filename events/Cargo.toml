@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 serde = "*"
 serde_derive = "*"
-reqwest = "0.11.2"
+reqwest = "0.13.0"
 select = "*"
 tokio = { version = "1.4.0", features = ["full"] }
 futures = "0.3.13"
